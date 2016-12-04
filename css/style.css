@@ -1,13 +1,43 @@
-body {
-	background: #5DADE2;
-	color: black;
+.card-title {
+  font-family: 'Fredericka the Great', cursive; 
+  font-size: 50px;
 }
-.header {font-family: 'Gloria Hallelujah', cursive;
+.card-text {
+  font-family: 'Caveat', cursive; 
+  font-size: 35px;
+}
 
+.header {
+  background-color: white; 
+}
+.menu-item {
+  color: black; 
+  display:inline-block; 
+  float: left; 
+  padding: 8px; 
+}
 
+/* Change the link color to #111 (black) on hover */
+.menu-item:hover {
+    background-color: #657A83;
 }
-.one { font-family: 'Amatic SC', cursive;
+.header-menu {
+  top:0;
+  width: 100%;
+  list-style-type:none; 
+  overflow:hidden;
 }
-h4 {font-family: 'Marck Script', cursive;
- font-size: 200%}
- 
+.active {
+  background-color: #9E9E9E;
+}
+.right1 {
+  float: right;
+}
+
+.navbar-fixed-top {
+  padding: -1 !important;
+  background-size:100%;
+}
+.main-body {
+  margin-top:150px;
+}
